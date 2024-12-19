@@ -1,7 +1,20 @@
 // G-Version - Split the Nota
 // Skriv din pseudokod innanför nedanstående kommentarsblock
 /*
+SET variabel summa
+SET varibel dricks
+SET variabel antalVanner
 
+
+FUNCTION named raknaAndel
+    SET variabel andel = (summa + summa*dricks)/antalVanner
+    PRINT ("Varje person ska betala " + andel + " kr")
+ENDFUNCTION
+
+START
+    INPUT summa dricks och antalVanner
+    CALL FUNCTION raknaAndel
+END
 
 */
 
