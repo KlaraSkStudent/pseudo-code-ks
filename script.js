@@ -52,7 +52,7 @@ FUNTION named "kontrolleraOrd"(forstaOrdet, andraOrdet)
     IF "diffCount === 1;"
         THEN 
         Loopa igenom ordbok och se om andraOrdet matchar något ord i ordbok.
-            IF andraOrdet ===slutOrd
+            IF andraOrdet === slutOrd
                 raknaGissningar++
                 startOrd = andraOrdet;
                 skrivUt(startOrd, slutOrd)
